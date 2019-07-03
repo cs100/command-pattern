@@ -23,7 +23,7 @@ Additionally, it has an initial function which requests that the user specifies 
 
 ## The Menu Class
 
-The menu class is used as an interface between user input and the commands that are created for keeping track of the calculation. It functions similar to the history system described in class and contains two internal members `vector<Command*> history`, which is used to hold all the commands that have bene run, and `int history_index`, which is used to keep track of our position in history. The menu class must have the following function signature and implement the following functionality to function correctly with the given menu.
+The menu class is used as an interface between user input and the commands that are created for keeping track of the calculation. It functions similar to the history system described in class and contains two internal members `vector<Command*> history`, which is used to hold all the commands that have bene run, and `int history_index`, which is used to keep track of our position in history. The menu class must have the following function signature and implement the following functionality to function correctly with the given menu (the code below is provided to you).
 
 ```c++
 class Menu {
